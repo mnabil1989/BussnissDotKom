@@ -2,10 +2,11 @@
 # BussnissDotKom
 # BussnissDotKom
 #install comoser and generate vendor file
-composer install
+
+$ composer install
 
 #Copy .env file
-cp .env.example .env
+$ cp .env.example .env
 
 #generate key 
-php artisan key:generate
+$ php artisan key:generate
